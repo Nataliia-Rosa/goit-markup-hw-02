@@ -14,7 +14,6 @@ a {
 button {
     cursor: pointer;
 }
-
 /* #region header */
 .logo {
     font-family: "Raleway", sans-serif;
@@ -38,11 +37,13 @@ button {
 .link:focus {
     color: #404bbf;
 }
+.infoadderess {
+    font-style: normal;
+}
 .link-address {
     color: currentColor;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
 }
 .link-address:hover, 
 .link-address:focus {
@@ -100,8 +101,6 @@ button {
 /* #endregion strategy */
 
 /* #region team */
-
-
 .team {
     background: #f4f4fd;
     text-align: center;
